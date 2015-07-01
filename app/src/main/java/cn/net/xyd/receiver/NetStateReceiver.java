@@ -18,9 +18,3 @@ public class NetStateReceiver
     }
   }
 }
-
-
-/* Location:           D:\decompiler\dex2jar-2.0\classes-dex2jar.jar
- * Qualified Name:     cn.net.xyd.receiver.NetStateReceiver
- * JD-Core Version:    0.7.0.1
- */

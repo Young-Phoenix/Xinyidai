@@ -2,14 +2,12 @@ package cn.net.xyd.activity;
 
 import android.annotation.SuppressLint;
 import android.app.AlertDialog;
-import android.app.AlertDialog.Builder;
 import android.app.Dialog;
 import android.content.Context;
 import android.content.DialogInterface;
 import android.content.DialogInterface.OnClickListener;
 import android.content.Intent;
 import android.content.IntentFilter;
-import android.content.res.Resources;
 import android.graphics.Bitmap;
 import android.os.Bundle;
 import android.os.Handler;
@@ -55,7 +53,7 @@ public class WebViewAc
     @SuppressLint({"SetJavaScriptEnabled"})
     private void initSet() {
         this.mWebView = ((WebView) findViewById(R.id.webview));
-        this.dialog = DialogUtil.createLoadingDialog(this, getStrFromID(R.string.dialog_msg));
+        this.dialog = DialogUtil.createLoadingDialog(this, getStrFromID(R.string.loading));
         this.currentURL = getResources().getString(R.string.base_url);
         this.mWebView.setScrollBarStyle(View.SCROLLBARS_INSIDE_OVERLAY);
         WebSettings localWebSettings = this.mWebView.getSettings();
@@ -155,8 +153,8 @@ public class WebViewAc
         }
     }
 
-    public boolean onKeyDown(int paramInt, KeyEvent paramKeyEvent) {
-        if (paramInt == KeyEvent.KEYCODE_BACK) {
+    public boolean onKeyDown(int keyCode, KeyEvent event) {
+        if (keyCode == KeyEvent.KEYCODE_BACK) {
             if ((this.mWebView == null) || (!this.mWebView.canGoBack())) {
                 this.mWebView.goBack();
                 return true;
@@ -169,7 +167,7 @@ public class WebViewAc
             }
             return true;
         }
-        return false;
+        return super.onKeyDown(keyCode, event);
     }
 
     private class ToastForJs {

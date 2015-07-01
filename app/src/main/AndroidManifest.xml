@@ -24,7 +24,12 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name="cn.net.xyd.activity.WebViewAc" />
+        <activity android:name="cn.net.xyd.activity.WebViewAc"
+                  android:screenOrientation="portrait"/>
+        <activity
+                android:name="cn.net.xyd.activity.boot.GuideAc"
+                android:screenOrientation="portrait" >
+        </activity>
     </application>
 
 </manifest>

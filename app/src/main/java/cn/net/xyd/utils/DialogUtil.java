@@ -4,35 +4,25 @@ import android.app.Dialog;
 import android.content.Context;
 import android.view.LayoutInflater;
 import android.view.View;
+import android.view.ViewGroup;
 import android.view.animation.AnimationUtils;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.LinearLayout.LayoutParams;
 import android.widget.TextView;
+import cn.net.xyd.R;
 
-public class DialogUtil
-{
-  public static Dialog createLoadingDialog(Context paramContext, String paramString)
-  {
-    Object localObject = LayoutInflater.from(paramContext).inflate(2130903043, null);
-    LinearLayout localLinearLayout = (LinearLayout)((View)localObject).findViewById(2131296260);
-    ImageView localImageView = (ImageView)((View)localObject).findViewById(2131296261);
-    localObject = (TextView)((View)localObject).findViewById(2131296262);
-    localImageView.startAnimation(AnimationUtils.loadAnimation(paramContext, 2130968576));
-    ((TextView)localObject).setText(paramString);
-    paramContext = new Dialog(paramContext, 2131165186);
-    paramContext.setCancelable(false);
-    paramContext.setContentView(localLinearLayout, new LayoutParams(-1, -1));
-    return paramContext;
-  }
+public class DialogUtil {
+    public static Dialog createLoadingDialog(Context context, String str) {
+        Object localObject = LayoutInflater.from(context).inflate(R.layout.loading_dialog, null);
+        LinearLayout localLinearLayout = (LinearLayout) ((View) localObject).findViewById(R.id.dialog_view);
+        ImageView localImageView = (ImageView) ((View) localObject).findViewById(R.id.img);
+        localObject = (TextView) ((View) localObject).findViewById(R.id.tipTextView);
+        localImageView.startAnimation(AnimationUtils.loadAnimation(context, R.anim.loading_animation));
+        ((TextView) localObject).setText(str);
+        Dialog dialog = new Dialog(context, R.style.loading_dialog);
+        dialog.setCancelable(false);
+        dialog.setContentView(localLinearLayout, new LayoutParams(LayoutParams.MATCH_PARENT, LayoutParams.MATCH_PARENT));
+        return dialog;
+    }
 }
-
-
-
-/* Location:           D:\decompiler\dex2jar-2.0\classes-dex2jar.jar
-
- * Qualified Name:     cn.net.xyd.utils.DialogUtil
-
- * JD-Core Version:    0.7.0.1
-
- */
