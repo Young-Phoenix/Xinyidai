@@ -10,4 +10,6 @@ public class Constants
    * sharepreference中保存是否首次打开应用状态的key
    */
   public static final String FIRST_START="firststart";
+
+  public static final String BASE_URL = "http://www.xyd.net.cn/mobile/index.php/Index/one_one.html";
 }

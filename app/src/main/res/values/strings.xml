@@ -3,7 +3,7 @@
     <string name="app_name">新易贷</string>
     <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
-    <string name="base_url">http://www.xyd.net.cn/mobile/index.php/Index/one_one.html</string>
+    <string name="base_url">http://www.google.com</string>
     <string name="press_again">请再按一次返回键推出程序</string>
     <string name="dialog_title">温馨提示</string>
     <string name="dialog_msg">世界上最遥远的距离就是没有网。是否设置？</string>
@@ -33,4 +33,6 @@
         <item quantity="one">至少连接 %1$d 个点.\n请重试…</item>
         <item quantity="other">至少连接 %1$d 个点.\n请重试…</item>
     </plurals>
+
+    <string name="load_failed">加载失败，点击重试</string>
 </resources>

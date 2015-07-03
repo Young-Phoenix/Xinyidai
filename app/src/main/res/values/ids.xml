@@ -4,8 +4,11 @@
     <item type="id" name="ll">false</item>
     <item type="id" name="button">false</item>
     <item type="id" name="webview">false</item>
+    <item type="id" name="reload">false</item>
     <item type="id" name="dialog_view">false</item>
     <item type="id" name="img">false</item>
     <item type="id" name="tipTextView">false</item>
     <item type="id" name="action_settings">false</item>
+    <item type="id" name="refresh">false</item>
+
 </resources>

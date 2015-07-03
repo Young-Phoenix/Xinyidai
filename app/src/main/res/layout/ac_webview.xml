@@ -1,5 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <WebView android:scrollbarSize="0.0dip" android:id="@id/webview" android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="fill_parent" />
-</LinearLayout>
+<RelativeLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+                xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <WebView android:scrollbarSize="0.0dip" android:id="@id/webview" android:scrollbars="none"
+             android:layout_width="fill_parent" android:layout_height="fill_parent"/>
+    <TextView android:id="@id/reload"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:layout_centerInParent="true"
+              android:visibility="gone"
+              android:text="@string/load_failed"/>
+    <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@id/refresh"
+            android:src="@drawable/default_ptr_rotate"
+            android:visibility="gone"
+            android:layout_centerVertical="true"/>
+</RelativeLayout>
