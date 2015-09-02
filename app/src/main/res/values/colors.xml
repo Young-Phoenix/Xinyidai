@@ -36,5 +36,16 @@
 
     <color name="alp_42447968_aosp_background_material_dark">#ff303030</color>
     <color name="alp_42447968_aosp_background_material_light">#ffeeeeee</color>
+    <color name="white">#ffffffff</color>
+    <color name="black">#ff000000</color>
+    <color name="red">#FFC40001</color>
+    <color name="transparentblue">#445CACEE</color>
+    <color name="transparent">#00000000</color>
+    <color name="background">#ffeeeeee</color>
 
+    <color name="home_house_background">#FDA658</color>
+    <color name="home_car_background">#5D9CEC</color>
+    <color name="home_hongbao_background">#48CFAD</color>
+    <color name="home_huodong_background">#EC87C0</color>
+    <color name="home_licai_background">#ED5565</color>
 </resources>

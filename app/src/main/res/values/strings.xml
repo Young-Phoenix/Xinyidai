@@ -35,4 +35,8 @@
     </plurals>
 
     <string name="load_failed">加载失败，点击重试</string>
+    <string name="net_not_connect">世界上最遥远的距离就是没有网络\n请检查您的网络连接</string>
+    <string name="press_again_exit">再按一次返回键退出程序</string>
+
+    <string name="search_hint">搜房/搜车</string>
 </resources>

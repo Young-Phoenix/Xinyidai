@@ -11,5 +11,6 @@ public class Constants
    */
   public static final String FIRST_START="firststart";
 
-  public static final String BASE_URL = "http://www.xyd.net.cn/mobile/index.php/Index/one_one.html";
+  //public static final String BASE_URL = "http://www.xyd.net.cn/mobile/index.php/Index/one_one.html";
+  public static final String BASE_URL = "http://www.xyd.net.cn/mobile/index.php/Index/main.html";
 }

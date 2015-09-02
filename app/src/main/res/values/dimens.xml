@@ -4,4 +4,6 @@
     <dimen name="activity_vertical_margin">16.0dip</dimen>
     <dimen name="alp_42447968_lockpatternview_size">350dp</dimen>
     <dimen name="alp_42447968_separator_size">1dp</dimen>
+
+    <dimen name="distance_10px">5.0dip</dimen>
 </resources>

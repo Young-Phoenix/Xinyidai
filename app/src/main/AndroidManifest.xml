@@ -9,13 +9,13 @@
     <uses-permission android:name="android.permission.BLUETOOTH" />
 
     <application
-            android:name="cn.net.xyd.application.App"
+            android:name="cn.net.xyd.common.BaseApplication"
             android:allowBackup="true"
             android:icon="@drawable/ic_launcher"
             android:label="@string/app_name"
             android:theme="@android:style/Theme.NoTitleBar" >
         <activity
-                android:name="cn.net.xyd.activity.boot.IndexAc"
+                android:name=".view.activity.boot.IndexAc"
                 android:label="@string/app_name"
                 android:theme="@android:style/Theme.NoTitleBar.Fullscreen" >
             <intent-filter>
@@ -24,11 +24,16 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name="cn.net.xyd.activity.WebViewAc"
+        <activity android:name=".view.activity.WebViewAc"
                   android:screenOrientation="portrait"/>
         <activity
-                android:name="cn.net.xyd.activity.boot.GuideAc"
+                android:name=".view.activity.boot.GuideAc"
                 android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".view.activity.MainActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait" >
         </activity>
     </application>
 
