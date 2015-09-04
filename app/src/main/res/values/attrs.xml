@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="button_index" format="integer" />
+    <attr name="button_text" format="string" />
+    <attr name="ic_nor" format="reference" />
+    <attr name="ic_sel" format="reference" />
+    <attr name="ic_new" format="reference" />
+    <attr name="ic_sel_new" format="reference" />
+</resources>
