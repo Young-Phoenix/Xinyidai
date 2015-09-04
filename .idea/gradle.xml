@@ -9,9 +9,9 @@
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$" />
-            <option value="$PROJECT_DIR$/MyModule" />
             <option value="$PROJECT_DIR$/app" />
             <option value="$PROJECT_DIR$/lockpattern" />
+            <option value="$PROJECT_DIR$/pullTorefreshLib" />
           </set>
         </option>
       </GradleProjectSettings>

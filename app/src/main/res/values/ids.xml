@@ -17,4 +17,5 @@
     <item type="id" name="nvbar_msg">false</item>
     <item type="id" name="nvbar_account">false</item>
     <item type="id" name="nvbar_more">false</item>
+    <item type="id" name="rl_banner">false</item>
 </resources>

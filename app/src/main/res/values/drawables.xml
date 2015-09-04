@@ -25,4 +25,8 @@
 
     <attr name="alp_42447968_ic_action_lockpattern" format="reference" />
 
+    <item type="drawable" name="half_red_press">#abf84454</item>
+    <item type="drawable" name="half_red">#99f84454</item>
+    <item type="drawable" name="white">#ffffffff</item>
+    <item type="drawable" name="tab_text">#40C4FF</item>
 </resources>

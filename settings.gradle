@@ -1,1 +1,2 @@
-include ':app', ':MyModule', ':lockpattern'
+include ':app', ':lockpattern'
+include ':pullTorefreshLib'

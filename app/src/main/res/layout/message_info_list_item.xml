@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:paddingLeft="@dimen/rl_size_10px"
+    android:paddingRight="@dimen/rl_size_10px"
+    android:paddingTop="@dimen/rl_size_10px"
+    android:paddingBottom="@dimen/rl_size_10px"
+    android:layout_height="wrap_content"
+    android:background="@drawable/list_item_select">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginLeft="@dimen/rl_size_10px">
+    <TextView
+        android:id="@+id/tv_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="进口凯迪拉克SRX 2013款3.0手自一体舒适型"
+        android:textColor="@android:color/black"
+        android:textSize="16sp"
+        android:textStyle="bold"/>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="@dimen/rl_size_10px">
+            <TextView
+                android:id="@+id/tv_time_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="发送时间:"
+                android:textSize="14sp"
+                android:singleLine="true"
+                android:ellipsize="end"/>
+            <TextView
+                android:id="@+id/tv_time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="2015-08-29 09:12:24"
+                android:textSize="12sp"
+                android:singleLine="true"
+                android:ellipsize="end"
+                />
+        </LinearLayout>
+    </LinearLayout>
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:background="@drawable/tt_default_arrow"/>
+
+</RelativeLayout>
