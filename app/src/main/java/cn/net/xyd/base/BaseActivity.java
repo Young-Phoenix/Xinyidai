@@ -10,7 +10,7 @@ import android.support.v4.app.FragmentActivity;
 import android.view.Window;
 
 import cn.net.xyd.R;
-import cn.net.xyd.common.BaseApplication;
+import cn.net.xyd.BaseApplication;
 import cn.net.xyd.common.NetUtils;
 import cn.net.xyd.common.ToastUtils;
 
@@ -84,7 +84,7 @@ public abstract class BaseActivity extends FragmentActivity implements IBaseActi
             intent.putExtras(bundle);
         }
         startActivity(intent);
-        overridePendingTransition(R.anim.push_left_in, R.anim.push_left_out);
+        overridePendingTransition(R.anim.left_in, R.anim.left_out);
     }
 
     /**
@@ -104,7 +104,7 @@ public abstract class BaseActivity extends FragmentActivity implements IBaseActi
             intent.putExtras(bundle);
         }
         startActivity(intent);
-        overridePendingTransition(R.anim.push_left_in, R.anim.push_left_out);
+        overridePendingTransition(R.anim.left_in, R.anim.left_in);
     }
 
     /**
@@ -117,7 +117,7 @@ public abstract class BaseActivity extends FragmentActivity implements IBaseActi
             intent.putExtras(bundle);
         }
         startActivityForResult(intent, requestCode);
-        overridePendingTransition(R.anim.push_left_in, R.anim.push_left_out);
+        overridePendingTransition(R.anim.left_in, R.anim.left_out);
     }
 
 
@@ -127,7 +127,7 @@ public abstract class BaseActivity extends FragmentActivity implements IBaseActi
     @Override
     public void finish() {
         super.finish();
-        overridePendingTransition(R.anim.push_right_in, R.anim.push_right_out);
+        overridePendingTransition(R.anim.right_in, R.anim.right_out);
     }
 
     /**

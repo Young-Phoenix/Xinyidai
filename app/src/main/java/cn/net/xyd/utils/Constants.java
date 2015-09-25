@@ -13,4 +13,10 @@ public class Constants
 
   //public static final String BASE_URL = "http://www.xyd.net.cn/mobile/index.php/Index/one_one.html";
   public static final String BASE_URL = "http://www.xyd.net.cn/mobile/index.php/Index/main.html";
+
+  public static final int EVENT_BEGIN = 0X100;
+  public static final int EVENT_REFRESH_DATA = EVENT_BEGIN + 10;
+  public static final int EVENT_LOAD_MORE_DATA = EVENT_BEGIN + 20;
+  public static final int EVENT_START_PLAY_MUSIC = EVENT_BEGIN + 30;
+  public static final int EVENT_STOP_PLAY_MUSIC = EVENT_BEGIN + 40;
 }

@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <item type="id" name="viewpager">false</item>
+    <item type="id" name="ll_dots">false</item>
     <item type="id" name="ll">false</item>
     <item type="id" name="button">false</item>
     <item type="id" name="webview">false</item>

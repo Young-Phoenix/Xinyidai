@@ -2,7 +2,8 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical">
-
+    <include android:id="@+id/title_bar"
+        layout="@layout/title_bar"/>
     <FrameLayout
         android:id="@+id/fl_fragmentContent"
         android:layout_width="match_parent"

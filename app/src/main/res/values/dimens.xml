@@ -23,4 +23,13 @@
     <dimen name="rl_size_40px">18.099976dip</dimen>
     <dimen name="rl_size_44px">19.899994dip</dimen>
     <dimen name="rl_size_60px">27.199982dip</dimen>
+
+    <dimen name="splash_bottom_padding">10dp</dimen>
+    <dimen name="splash_middle_top_margin">10dp</dimen>
+    <dimen name="splash_bottom_margin">40dp</dimen>
+    <dimen name="splash_top_margin">130dp</dimen>
+
+    <dimen name="fragment_common_list_smart_tab_padding">20dp</dimen>
+    <dimen name="fragment_common_list_smart_tab_indicator_height">3dp</dimen>
+    <dimen name="fragment_common_list_smart_tab_indicator_radius">2dp</dimen>
 </resources>

@@ -12,4 +12,9 @@
         <item>account</item>
         <item>more</item>
     </string-array>
+
+    <array name="licai_category_list">
+        <item>新易宝</item>
+        <item>散标</item>
+    </array>
 </resources>
