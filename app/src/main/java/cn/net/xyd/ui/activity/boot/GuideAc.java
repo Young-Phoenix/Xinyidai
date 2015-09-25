@@ -1,4 +1,4 @@
-package cn.net.xyd.view.activity.boot;
+package cn.net.xyd.ui.activity.boot;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -15,9 +15,8 @@ import android.widget.ImageView;
 import android.widget.ImageView.ScaleType;
 import android.widget.LinearLayout;
 import cn.net.xyd.R;
-import cn.net.xyd.view.activity.MainActivity;
-import cn.net.xyd.view.activity.WebViewAc;
-import cn.net.xyd.adapter.ViewPagerAdapter;
+import cn.net.xyd.ui.activity.MainActivity;
+import cn.net.xyd.ui.adapter.ViewPagerAdapter;
 
 public class GuideAc extends Activity implements OnClickListener,OnPageChangeListener{
 
